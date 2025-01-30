@@ -1,0 +1,29 @@
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+  
+  .character-item {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .character-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .character-detail {
+    margin-top: 20px;
+  }
+  
+  .character-detail ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .character-detail li {
+    padding: 5px 0;
+  }
